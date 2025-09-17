@@ -1,0 +1,28 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Epunda+Slab&display=swap');
+
+/*
+    Definição de variáveis
+*/
+:root {
+    --cor-principal: hwb(324 45% 0%);
+}
+
+/*
+    * significa todos os elementos
+*/
+* {
+    font-family: "Epunda Slab", serif;
+
+}
+
+ul>li:nth-child(even) {
+    background-color: rgb(246, 221, 151);
+}
+
+.caixa-formatada {
+    background-color: var(--cor-principal);
+    color: rgb(13, 13, 13);
+    border-radius: 20px;
+    padding: 10px;
+}
